@@ -1,0 +1,9 @@
+{
+    "imports": {
+      "dotenv/": "https://deno.land/std@0.163.0/dotenv/"
+    },
+    "tasks": {
+      "dev": "deno run -A --watch main.js",
+      "build": "deno compile --allow-read --allow-net --allow-env main.js -p 8080"
+    }
+}
